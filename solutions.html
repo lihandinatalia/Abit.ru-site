@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Типовые IT-решения ООО «Абит»: импортозамещение, офисная инфраструктура, защита данных, облако и удалённый офис.">
+    <title>Решения — Абит</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2300d4ff'/%3E%3Cstop offset='100%25' stop-color='%237c3aed'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='900' font-size='52' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">
+                <span class="logo__mark">A</span>
+                <span>Абит</span>
+            </a>
+            <nav class="nav" aria-label="Основная навигация">
+                <a href="services.html" class="nav__link">Услуги</a>
+                <a href="solutions.html" class="nav__link active">Решения</a>
+                <a href="projects.html" class="nav__link">Проекты</a>
+                <a href="contacts.html" class="nav__link">Контакты</a>
+                <a href="contacts.html" class="btn btn--primary btn--sm">Оставить заявку</a>
+            </nav>
+            <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" aria-labelledby="pageTitle">
+            <div class="container reveal">
+                <h1 id="pageTitle" class="page-hero__title">Типовые <span class="gradient-text">IT-решения</span></h1>
+                <p class="page-hero__subtitle">Готовые конфигурации под самые частые задачи бизнеса: от небольшого офиса до распределённой инфраструктуры.</p>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="officeTitle">
+            <div class="container">
+                <div class="card-grid" style="grid-template-columns: repeat(2, 1fr);">
+                    <article class="solution-card reveal">
+                        <div class="solution-card__header">
+                            <div class="solution-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="12" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M9 9h6"/></svg>
+                            </div>
+                            <h2 id="officeTitle" class="solution-card__title">Офисная инфраструктура</h2>
+                        </div>
+                        <ul class="solution-card__list">
+                            <li>Настройка и поддержка рабочих мест</li>
+                            <li>Локальная сеть, Wi-Fi, печать и доступы</li>
+                            <li>Почта, общие папки, резервное копирование</li>
+                            <li>Единая точка поддержки пользователей</li>
+                        </ul>
+                    </article>
+
+                    <article class="solution-card reveal" id="import">
+                        <div class="solution-card__header">
+                            <div class="solution-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                            </div>
+                            <h2 class="solution-card__title">Импортозамещение</h2>
+                        </div>
+                        <ul class="solution-card__list">
+                            <li>Аудит текущего ПО и оборудования</li>
+                            <li>Подбор российских ОС, офисных пакетов, СЗИ</li>
+                            <li>Миграция данных и интеграция с учётными системами</li>
+                            <li>Обучение пользователей и техническая поддержка</li>
+                        </ul>
+                    </article>
+
+                    <article class="solution-card reveal">
+                        <div class="solution-card__header">
+                            <div class="solution-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <h2 class="solution-card__title">Защита данных и соответствие требованиям</h2>
+                        </div>
+                        <ul class="solution-card__list">
+                            <li>Аудит информационной безопасности</li>
+                            <li>Межсетевые экраны, VPN, антивирусы, DLP</li>
+                            <li>Резервное копирование и планы восстановления</li>
+                            <li>Подготовка к проверкам и соответствие 152-ФЗ</li>
+                        </ul>
+                    </article>
+
+                    <article class="solution-card reveal">
+                        <div class="solution-card__header">
+                            <div class="solution-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            </div>
+                            <h2 class="solution-card__title">Облако и удалённый офис</h2>
+                        </div>
+                        <ul class="solution-card__list">
+                            <li>Проектирование облачной инфраструктуры</li>
+                            <li>Удалённый доступ к рабочим местам и файлам</li>
+                            <li>Синхронизация данных и совместная работа</li>
+                            <li>Поддержка распределённых команд и филиалов</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section import" aria-labelledby="howTitle">
+            <div class="container import__inner">
+                <div class="reveal">
+                    <h2 id="howTitle" class="section-title">Как мы внедряем решения</h2>
+                    <p class="about__text">Каждое решение начинается с понимания задач заказчика. Мы не навязываем лишнего оборудования и лицензий, но предупреждаем, где экономия может обернуться рисками.</p>
+                    <div class="feature-list" style="margin-top:32px;">
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="feature__title">1. Аудит</h3>
+                                <p class="feature__text">Изучаем текущую инфраструктуру, процессы и требования.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="feature__title">2. Проектирование</h3>
+                                <p class="feature__text">Формируем архитектуру, смету и план внедрения.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M3 9h1M3 15h1M20 9h1M20 15h1M9 3v1M15 3v1M9 20v1M15 20v1"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="feature__title">3. Внедрение</h3>
+                                <p class="feature__text">Устанавливаем, настраиваем, мигрируем данные и обучаем.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="feature__title">4. Поддержка</h3>
+                                <p class="feature__text">Сопровождаем в режиме SLA и развиваем инфраструктуру.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="import__visual reveal">
+                    <div class="import__visual-content">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg>
+                        <div class="import__title">Индивидуальный план внедрения</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__copy">© 2026 ООО «Абит». Все права защищены.</p>
+            <nav class="footer__nav" aria-label="Нижняя навигация">
+                <a href="services.html" class="footer__link">Услуги</a>
+                <a href="solutions.html" class="footer__link">Решения</a>
+                <a href="projects.html" class="footer__link">Проекты</a>
+                <a href="contacts.html" class="footer__link">Контакты</a>
+                <a href="privacy-policy.html" class="footer__link">Политика конфиденциальности</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

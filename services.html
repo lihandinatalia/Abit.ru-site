@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Услуги и цены ООО «Абит»: обслуживание серверов и компьютеров, информационная безопасность, бэкапы, мониторинг, импортозамещение.">
+    <title>Услуги и цены — Абит</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2300d4ff'/%3E%3Cstop offset='100%25' stop-color='%237c3aed'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='900' font-size='52' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">
+                <span class="logo__mark">A</span>
+                <span>Абит</span>
+            </a>
+            <nav class="nav" aria-label="Основная навигация">
+                <a href="services.html" class="nav__link active">Услуги</a>
+                <a href="solutions.html" class="nav__link">Решения</a>
+                <a href="projects.html" class="nav__link">Проекты</a>
+                <a href="contacts.html" class="nav__link">Контакты</a>
+                <a href="contacts.html" class="btn btn--primary btn--sm">Оставить заявку</a>
+            </nav>
+            <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" aria-labelledby="pageTitle">
+            <div class="container reveal">
+                <h1 id="pageTitle" class="page-hero__title">Услуги и <span class="gradient-text">цены</span></h1>
+                <p class="page-hero__subtitle">Актуальные цены на услуги по сопровождению IT-инфраструктуры. Раскройте группу, чтобы увидеть состав и стоимость.</p>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="priceListTitle">
+            <div class="container">
+                <div class="section-head reveal">
+                    <h2 id="priceListTitle" class="section-title">Прайс-лист на услуги</h2>
+                    <p class="section-subtitle">Цены указаны ориентировочно. Итоговая стоимость зависит от объёма работ, количества устройств и особенностей инфраструктуры.</p>
+                </div>
+
+                <div class="service-accordion">
+
+                    <!-- Обслуживание серверов -->
+                    <details class="service-group reveal">
+                        <summary class="service-group__summary">
+                            <div class="service-group__info">
+                                <div class="service-group__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+                                </div>
+                                <span class="service-group__title">Обслуживание серверов</span>
+                                <span class="service-group__count">6 услуг</span>
+                            </div>
+                            <div class="service-group__chevron">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="m6 9 6 6 6-6"/></svg>
+                            </div>
+                        </summary>
+                        <div class="service-group__content">
+                            <div class="service-list">
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Установка серверной ОС (Windows Server, Linux)</div>
+                                        <div class="service-item__desc">Установка системы с базовой конфигурацией.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 15 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Настройка файлового сервера</div>
+                                        <div class="service-item__desc">Настройка общего доступа и прав пользователей.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 9 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Обновление серверного ПО</div>
+                                        <div class="service-item__desc">Установка патчей и новых версий систем.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 3 000 ₽/час</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Настройка Active Directory</div>
+                                        <div class="service-item__desc">Создание доменной инфраструктуры и управление учётными записями.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 9 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Диагностика серверного оборудования</div>
+                                        <div class="service-item__desc">Проверка дисков, ОЗУ и блоков питания.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 2 000 ₽/час</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Настройка резервного копирования</div>
+                                        <div class="service-item__desc">Автоматизация бэкапов на локальные или облачные хранилища.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 12 000 ₽</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- Обслуживание компьютерной техники -->
+                    <details class="service-group reveal">
+                        <summary class="service-group__summary">
+                            <div class="service-group__info">
+                                <div class="service-group__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="12" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M9 9h6"/></svg>
+                                </div>
+                                <span class="service-group__title">Обслуживание компьютерной техники</span>
+                                <span class="service-group__count">6 услуг</span>
+                            </div>
+                            <div class="service-group__chevron">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="m6 9 6 6 6-6"/></svg>
+                            </div>
+                        </summary>
+                        <div class="service-group__content">
+                            <div class="service-list">
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Замена жёсткого диска или SSD</div>
+                                        <div class="service-item__desc">Замена накопителя с переносом данных.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 6 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Чистка системы охлаждения</div>
+                                        <div class="service-item__desc">Удаление пыли и замена термопасты.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 4 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Диагностика и устранение неисправностей</div>
+                                        <div class="service-item__desc">Поиск и устранение причин сбоев (например, синего экрана).</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 2 000 ₽/час</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Установка периферийного устройства</div>
+                                        <div class="service-item__desc">Подключение и настройка принтеров, сканеров, IP-камер.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 2 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Сборка или модернизация ПК</div>
+                                        <div class="service-item__desc">Замена или апгрейд компонентов (процессор, видеокарта, ОЗУ и др.).</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 2 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Установка операционной системы</div>
+                                        <div class="service-item__desc">Переустановка ОС с драйверами и базовым ПО.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 6 000 ₽</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- Бесперебойная работа ПО -->
+                    <details class="service-group reveal">
+                        <summary class="service-group__summary">
+                            <div class="service-group__info">
+                                <div class="service-group__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                                </div>
+                                <span class="service-group__title">Бесперебойная работа программ</span>
+                                <span class="service-group__count">5 услуг</span>
+                            </div>
+                            <div class="service-group__chevron">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="m6 9 6 6 6-6"/></svg>
+                            </div>
+                        </summary>
+                        <div class="service-group__content">
+                            <div class="service-list">
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Обновление и настройка 1С</div>
+                                        <div class="service-item__desc">Обновление и конфигурирование 1С.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 3 000 ₽/час</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Решение проблем совместимости ПО</div>
+                                        <div class="service-item__desc">Настройка совместной работы нескольких программ.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 2 000 ₽/час</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Настройка автоматического обновления ПО</div>
+                                        <div class="service-item__desc">Настройка правил своевременной загрузки обновлений.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 3 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Устранение сбоев приложений</div>
+                                        <div class="service-item__desc">Исправление ошибок запуска и работы приложений.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 2 000 ₽/час</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Интеграция приложений</div>
+                                        <div class="service-item__desc">Настройка обмена данными между программами.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 3 000 ₽/час</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- Безопасность IT-инфраструктуры -->
+                    <details class="service-group reveal">
+                        <summary class="service-group__summary">
+                            <div class="service-group__info">
+                                <div class="service-group__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                </div>
+                                <span class="service-group__title">Безопасность IT-инфраструктуры</span>
+                                <span class="service-group__count">6 услуг</span>
+                            </div>
+                            <div class="service-group__chevron">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="m6 9 6 6 6-6"/></svg>
+                            </div>
+                        </summary>
+                        <div class="service-group__content">
+                            <div class="service-list">
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Установка и настройка антивирусного ПО</div>
+                                        <div class="service-item__desc">Установка корпоративных решений и настройка политик безопасности.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 3 000 ₽/час</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Настройка межсетевого экрана (Firewall)</div>
+                                        <div class="service-item__desc">Настройка фильтрации трафика и защиты от атак.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 3 000 ₽/час</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Проведение аудита безопасности</div>
+                                        <div class="service-item__desc">Проверка сетевых уязвимостей и рекомендации по их устранению.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 15 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Шифрование данных</div>
+                                        <div class="service-item__desc">Защита конфиденциальной информации на рабочих станциях и серверах.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 15 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Настройка VPN</div>
+                                        <div class="service-item__desc">Организация защищённого удалённого доступа сотрудникам.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 30 000 ₽</span>
+                                    </div>
+                                </div>
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Обучение сотрудников основам кибербезопасности</div>
+                                        <div class="service-item__desc">Тренинги по предотвращению фишинга и других атак.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">от 3 000 ₽/час</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- Внедрение отечественных программных продуктов -->
+                    <details class="service-group reveal">
+                        <summary class="service-group__summary">
+                            <div class="service-group__info">
+                                <div class="service-group__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 2a10 10 0 0 1 10 10"/></svg>
+                                </div>
+                                <span class="service-group__title">Внедрение отечественных программных продуктов</span>
+                                <span class="service-group__count">Индивидуально</span>
+                            </div>
+                            <div class="service-group__chevron">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="m6 9 6 6 6-6"/></svg>
+                            </div>
+                        </summary>
+                        <div class="service-group__content">
+                            <div class="service-list">
+                                <div class="service-item">
+                                    <div class="service-item__main">
+                                        <div class="service-item__name">Внедрение отечественного ПО</div>
+                                        <div class="service-item__desc">Подбор, внедрение и настройка российского ПО, миграция данных, обучение и поддержка. Включает анализ потребностей, подбор и тестирование альтернатив, интеграцию, миграцию данных, обучение сотрудников, сопровождение и обновления.</div>
+                                    </div>
+                                    <div class="service-item__price">
+                                        <span class="service-item__value">по запросу</span>
+                                        <span class="service-item__note">индивидуальный расчёт</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top:40px; text-align:center;">
+            <div class="container reveal">
+                <h2 class="section-title">Нужна консультация?</h2>
+                <p class="section-subtitle" style="margin-left:auto; margin-right:auto;">Свяжитесь с нами — подберём услуги под вашу инфраструктуру и бюджет.</p>
+                <a href="contacts.html" class="btn btn--primary">Связаться</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__copy">© <span id="year">2026</span> ООО «Абит». Все права защищены.</p>
+            <nav class="footer__nav" aria-label="Нижняя навигация">
+                <a href="services.html" class="footer__link">Услуги</a>
+                <a href="solutions.html" class="footer__link">Решения</a>
+                <a href="projects.html" class="footer__link">Проекты</a>
+                <a href="contacts.html" class="footer__link">Контакты</a>
+                <a href="privacy-policy.html" class="footer__link">Политика конфиденциальности</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
